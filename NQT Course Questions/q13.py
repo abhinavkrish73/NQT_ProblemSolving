@@ -1,0 +1,5 @@
+arr = input().split()
+arr.sort()
+print(" ".join(arr))
+arr.sort(reverse=True)
+print(" ".join(arr))
